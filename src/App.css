@@ -1,0 +1,464 @@
+* {
+  margin:0;
+  padding :0;
+  box-sizing: border-box;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  float: left;
+  padding: 5px;
+  display: block;
+}
+
+
+table {
+  border: 1px solid black;
+  table-layout: fixed;
+  width: 500px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  width: 150px;
+  overflow: hidden;
+}
+
+.Pagination{
+  margin-left: 700px;
+  margin-bottom:-25px;
+}
+
+
+.Nav{
+  display:flex;
+
+}
+
+.NavBar{
+  background-color: gray;
+  color:whitesmoke;
+  height:100%;
+  position: absolute;
+}
+
+.top_section{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 15px;
+}
+
+.logo, .bars{
+  font-size: 20px;
+  line-height: 0;
+}
+
+.routes{
+  padding-top: 100%;
+}
+
+.link{
+      display: flex;
+      color:white;
+      padding-left: 30%;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border-right: 2px solid transparent;
+      transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.link:hover{
+  border-right: 2px solid white ;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  background: rgb(29, 29, 29);
+  opacity: 0.3;
+  
+}
+
+
+.Login{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
+  margin-left: 600px;
+  margin-top:200px;
+  
+}
+
+.ProdUpload {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
+  margin-left: 450px;
+  margin-top: -25px;
+
+}
+
+.LoginTitle {
+  padding: 10px;
+}
+.SignUpTitle{
+  margin-left:700px;
+  margin-top:30px;
+}
+
+.LoginForm, .ProdForm{
+  padding: 10px;
+}
+
+
+
+.SkinForm,.SignUpForm{
+  padding: 10px;
+  margin-left:600px
+}
+
+.SkinType,.Sensitivity,.SkinGoal{
+  padding:30px;
+}
+
+.ProdTitle{
+      margin-bottom: auto;
+      margin-left: 600px;
+      white-space: nowrap;
+      margin-top:20px
+}
+.AdminTitle{
+      padding: 10px 0px 5px 10px;
+      text-align: center;
+}
+.SkinSurvey {
+  padding: 10px 0px 5px 10px;
+  text-align: center;
+  margin-left: 370px;
+  margin-top: 65px;
+  }
+
+  .rl{
+    margin-left:26px;
+  
+  }
+  .r_ST{
+    margin-left:-50px;
+  }
+
+  .r_S {
+      margin-left: 53px;
+  }
+
+  .r_SG {
+    margin-left: -200px;
+    display: flex;
+  }
+
+.Product {
+   padding: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 200px;
+   
+  
+}
+
+.ProdRows{
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap:50px;
+  
+}
+
+
+#tiles{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
+  width: fit-content;
+  height: fit-content;
+}
+
+
+
+.userName{
+  padding:20px;
+  margin-left: 50px;
+}
+
+
+select {
+  width: 100%;
+  height: 45px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+
+input[type=text],input[type=email],input[type=password]
+ {
+  width: 130%;
+  height: 30px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+textarea {
+  width: 130%;
+  height: 100px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+label {
+  padding: 5px 5px 0px 0px;
+  font-size: large;
+  display: inline-flex;
+  
+}
+
+#dd{
+  padding: 10px 5px 0px 0px;
+}
+
+.col-25 {
+  float: left;
+  width: 80%;
+  margin-top: 0px;
+
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+
+}
+
+.prodrow{
+  padding:10px;
+}
+
+.col-35 {
+  float: left;
+  width:180px
+
+}
+
+.col-65 {
+  float: left;
+
+}
+img {
+  width: 180px ;
+  height: 180px;
+  padding:10px
+}
+.iName{
+  text-align: center;
+}
+
+.iPrice {
+  text-align: center;
+}
+
+.signrow {
+  padding: 20px;
+}
+
+.col-15 {
+  float: left;
+  width: 80%;
+  margin-top: 0px;
+
+}
+
+.col-45 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+
+}
+
+.SignButton{
+  margin-top: 30px;
+   margin-right: 30px;
+}
+
+.signup-row {
+  font-size: small;
+}
+/* Clear floats after the columns */
+.row:after, .prodrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.UserSkinRegime,.UserSkinDiary{
+  margin-left: 560px;
+  margin-top: -10px;
+}
+
+.AM, .PM{
+  display:flex;
+  flex-direction: row;
+  margin-left: -300px;
+  padding: 50px;
+  
+  
+}
+
+.PM {
+  margin-top: -40px;
+
+}
+
+
+.AM_Regime,
+.PM_Regime {
+   margin-top: 75px;
+}
+
+.Recommendation,.skin{
+  padding:10px
+}
+
+.Recommendation,
+.skin, .skin_g, .skin_r {
+  width: 400px;
+  text-align: center;
+}
+
+.regimelabel{
+      margin-left: 50px;
+      text-align: center;
+}
+
+.item+.item::before {
+  display: inline-block;
+  white-space: pre;
+  content: ", ";
+}
+
+.NA{
+  fill: whitesmoke;
+}
+
+rect{
+  fill: gray;
+  opacity: 0.5;
+}
+
+
+.AdminHeader{
+  margin-left:600px;
+  margin-top:30px;
+}
+
+.DeleteBtn{
+  margin-left:150px;
+  margin-top:20px;
+}
+
+.ManageTable{
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.deletecheck{
+ margin-left: 65px;
+}
+
+.plus-sign{
+      margin-left: 1250px;
+      margin-top: -10px;
+}
+
+.Title{
+
+  margin-left: 600px;
+  margin-top: 30px;
+
+}  
+
+.Title-1{
+      margin-left: 200px;
+      margin-top: 10px;
+}
+
+.list-1 {
+  margin-left: 180px;
+  margin-top: 30px;
+}
+
+
+.Title-2 {
+  margin-left: 180px;
+  padding:10px;
+  width: 300px;
+}
+
+.list-2 {
+  margin-left: 180px;
+}
+
+.Courtesy {
+  margin-left: 180px;
+  padding: 10px;
+}
+
+.Home-Title {
+
+  margin-left: 600px;
+  margin-top: 250px;
+  padding:20px;
+
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+  .col-25,
+  .col-75,
+  .col-35,
+  .col-65,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
