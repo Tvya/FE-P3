@@ -19,7 +19,7 @@ const [recomIng, setRecomIng] = useState([])
   const fetchData = async () => {
    
     // get the data from the api
-    const data = await fetch(`/activeIng/${skinGoal}`)
+    const data = await fetch(`https://dull-plum-wear.cyclic.app/activeIng/${skinGoal}`)
   
     // convert the data to json
     const json = await data.json();

@@ -71,7 +71,7 @@ useEffect(() => {
   // declare the async data fetching function
   const fetchData = async () => {
     // get the data from the api
-    const data = await fetch('/activeIng');
+    const data = await fetch('https://dull-plum-wear.cyclic.app/activeIng');
     // convert the data to json
     const json = await data.json();
 
@@ -98,7 +98,7 @@ useEffect(() => {
 
   //async function to post data to DB
     const postProduct = async () => {
-      const response = await fetch('/', options);
+      const response = await fetch('https://dull-plum-wear.cyclic.app/', options);
       const data = await response.json();
       try{  
       
